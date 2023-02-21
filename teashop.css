@@ -1,0 +1,177 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+ 
+  
+  
+  html {
+    font-family: adobe-garamond-pro;
+    line-height: 0.5rem;
+    -webkit-text-size-adjust: auto;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  /*! Body Style*/
+  body {
+    margin: 0;
+    font-size: 1.8rem;
+    text-decoration-color: #28a745;
+    text-align: left;
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    background-color: #fff;
+  }
+
+/*! Nav Style*/
+ul li{
+   
+    display: inline-block;
+   -webkit-text-fill-color:#28a745;
+   
+   
+  }
+ ol li{
+   
+    text-decoration: none;
+   -webkit-text-fill-color:#28a745;
+   
+   
+  } 
+  
+  
+
+  .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-evenly;
+    margin:0%;
+    border-top: 5px solid #28a745;
+    border-bottom:5px solid #28a745;  
+  }
+  
+
+  li a.active {
+    background-color: #bee60c;
+    color: #fff;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #f7c291d8;
+    background-size: cover;
+    color: #fff;
+  }
+
+  @media (min-width: 992px) {
+    .navbar-expand-lg {
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+    }
+    .navbar-expand-lg .navbar-nav {
+      -ms-flex-direction: row;
+      flex-direction: row;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+      position:relative;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+      padding: 4rem 4rem 0rem 0rem;
+      
+    }
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid, .navbar-expand-lg > .container-sm, .navbar-expand-lg > .container-md, .navbar-expand-lg > .container-lg, .navbar-expand-lg > .container-xl {
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+    }
+    .navbar-expand-lg .navbar-collapse {
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+    }
+    .navbar-expand-lg .navbar-toggler {
+      display: none;
+    }
+  }
+.mx-auto {
+  margin-right: auto !important;
+}
+
+/*! Middle Page Scroll  CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 2%;
+  z-index: 20;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 80%;
+
+}
+  
+  @media (min-width: auto) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom:2px;
+      font-size: 20px;
+      line-height: 16px;
+    }
+}
+  
+
+  /*! space before footer*/
+  
+  hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 10px solid rgb(134, 133, 133);
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    
+  }
+  
+  .flex-container > div {
+    width: auto;
+    margin: 10px;
+    text-align: auto;
+    line-height: auto;
+    font-size: 30px;
+  }
+
+  /*! Footer style */
+  a:link {
+    text-decoration: none;
+    
+  }
+
+  .text-decoration-none {
+    text-decoration: none !important;
+  }
+
+  article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+  }
