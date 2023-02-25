@@ -536,7 +536,15 @@ p {
     width: 350px;
     height: fit-content;
 }
-
+.indiOrderCK {
+    padding-top: 30px;
+    margin-bottom: 25px;
+    font-size: 22px;
+    border-width: 1px;
+    border-style: solid;
+    height: 100px;
+    background-color: #bde6c3;
+}
 .checkout {
     border-width: 1px;
     border-style: outset;
@@ -580,10 +588,8 @@ p {
     border-style: outset;
     border-color: #45754d;
     background-color: #b1d8b7;
-    
-    
-    width: 400px;
-    height: fit-content;
+    width: Auto;
+    height: Auto;
 }
 
 .footerBlocks {
