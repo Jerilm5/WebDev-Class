@@ -2759,6 +2759,7 @@ fieldset[disabled] .checkbox label {
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
 }
 .radio input[type="radio"],

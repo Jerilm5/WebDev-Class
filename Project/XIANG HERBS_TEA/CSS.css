@@ -103,7 +103,7 @@ p {
 
 .mainImage {
     width: 1000px;
-    border: 8px solid #45754d;
+    border: 6px solid #45754d;
 }
 
 .headerImage {
@@ -176,14 +176,14 @@ p {
     padding-top: 5px;
     border-radius: 5px;
     border: 2px solid #3b6342;
-    background: rgba(63, 107, 65, 0.2);
+    background: #3f6b4133;
     width: 35px;
 }
 
 .addCart {
     padding-top: 5px;
     text-align: center;
-    color: darkblue;
+    color: #3f6b4133;
     border: 5px solid #5c8b64;
     background: #99c2a0;
     
@@ -406,7 +406,7 @@ p {
     border-color: #45754d;
     background-color: #99c2a0;
     font-size: 25px;
-    color: blue;
+    color:#00050033;
     height: 80px;
     width: 350px;
     padding: 20px;
@@ -554,7 +554,7 @@ p {
     border-color: #45754d;
     background-color: #b1d8b7;
     font-size: 25px;
-    color: rgb(78, 136, 90);
+    color: #000500b0;
     height: 80px;
     width: 250px;
 }
@@ -622,3 +622,5 @@ p {
     width: fit-content;
     height: fit-content;
 }
+
+
